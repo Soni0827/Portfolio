@@ -16,25 +16,22 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Me |" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
+        <span className="font-extrabold text-white">I</span> am just a cute boy who likes gradient
+        websites and loves to create them using {' '}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+          Next.js ,React.js and CSS
         </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        Programming is not just a Passion it's an art{' '}
+        <span className="font-extrabold text-white"></span> with it you can bring your dreames into reality
+    
+        and i am just doing it {' '}
+        <span className="font-extrabold text-white">will you be a dreamer ?</span> Think ahead
       </motion.p>
 
       <motion.img
